@@ -12,6 +12,7 @@ class Keyboard extends Component {
       return <span key={index} className="box-span">{number}</span>
     })
     const fourthRow = this.props.numbers4.map((number, index) => {
+
       return <span key={index} className="box-span2 font-weight-bold">{number}</span>
     })
 
