@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
 
-      <div className="container d-flex justify-content-center mt-4">
+      <div className="container mt-4">
         <div className="row screen border border-info">
             <Screen
               num='10'

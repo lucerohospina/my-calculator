@@ -11,7 +11,7 @@ class Keyboard extends Component {
     const thirdRow = this.props.numbers3.map((number, index) => {
       return <span key={index}>{number}</span>
     })
-    const fourthRow = this.props.numbers3.map((number, index) => {
+    const fourthRow = this.props.numbers4.map((number, index) => {
       return <span key={index}>{number}</span>
     })
 

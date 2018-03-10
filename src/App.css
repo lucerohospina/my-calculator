@@ -1,7 +1,7 @@
 .screen {
   background-color: #dfdfdf;
   text-align: right;
-  height: 55px;
+  /* height: 55px; */
   width: 50%;
   padding: 5px;
   font-size: 30px;
@@ -11,3 +11,6 @@
   list-style: none;
 }
 
+span {
+  display: inline-block;
+}
