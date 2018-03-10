@@ -1,8 +1,8 @@
 .screen {
-  background-color: #dfdfdf;
+  background-color: #bbbbbb;
   width: 50%;
   padding: 5px;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .list-style {
@@ -11,24 +11,28 @@
 }
 
 .keyboard{
-  background-color: aqua;
+  background-color: black;
   width: 50%;
 }
 .box-span, .box-span2{
   display: inline-block;
   padding: 1.7em;
   background-color: rgb(154, 218, 27);
-  border:1px solid rgb(17, 16, 16);
+  border:1px solid rgb(173, 172, 172);
   width: 33%;
+  font-size:22px;
 }
 .box-span2:last-child{
   background:rgb(154, 218, 27);
 }
 .operators-style {
   padding: 0.85em 1.5em;
-  border:1px solid rgb(17, 16, 16);
+  border:1px solid rgb(173, 172, 172);
+  background-color: rgb(27, 218, 161);
+  font-size:22px;
 }
 .section-operator{
   width: 30%;
   padding: 0 1%;
+  
 }
