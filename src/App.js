@@ -20,7 +20,7 @@ class App extends Component {
             numbers={["1","2","3"]}
             numbers2={["4","5","6"]}
             numbers3={["7","8","9"]}
-            numbers4={["C","0","."]}
+            numbers4={["c","0","."]}
          />
          <Operators
            operators={["<-", "+", "-", "x", "/" , "="]}
