@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Keyboard from './components/Keyboard';
+import Operators from './components/Operators';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container-fluid">
+        <div className="row">
+         <Keyboard 
+           numbers={["1","2","3"]}
+           numbers2={["4","5","6"]}
+           numbers3={["7","8","9"]}
+           numbers4={["C","0","."]}
+          />
+         <Operators
+           operators={["<-", "+", "-", "x", "/" , "="]}
+          />
+        </div>
       </div>
     );
   }
