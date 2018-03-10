@@ -17,7 +17,7 @@ class Keyboard extends Component {
     })
 
     return (
-      <div className = "ml-2">
+      <div className = "ml-2 col-sm-8 text-center">
         <div>
           {firstRow}
         </div>

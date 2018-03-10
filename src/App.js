@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
 
-      <div className="container mt-4">
+      <div className="container mt-4 text-white font-weight-bold">
         <div className="row screen border border-info">
             <Screen
               num='10'

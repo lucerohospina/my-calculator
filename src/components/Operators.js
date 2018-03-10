@@ -7,8 +7,8 @@ class Operators extends Component {
     })
 
     return (
-      <div>
-        <ul className="list-style">{listOfOperators}</ul>
+      <div className= "section-operator">
+        <ul className="list-style text-center">{listOfOperators}</ul>
       </div>  
     )
   }

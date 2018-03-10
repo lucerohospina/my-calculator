@@ -1,32 +1,38 @@
 .screen {
-  background-color: #dfdfdf;
-  text-align: right;
-  /* height: 55px; */
+  background-color: #bbbbbb;
   width: 50%;
   padding: 5px;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .list-style {
   list-style: none;
-  margin-left:0;
+  margin-left:-10px;
 }
 
 .keyboard{
-  background-color: aqua;
+  background-color: black;
   width: 50%;
 }
 .box-span, .box-span2{
   display: inline-block;
-  padding: 32px;
+  padding: 1.7em;
   background-color: rgb(154, 218, 27);
-  border:1px solid rgb(17, 16, 16);
+  border:1px solid rgb(173, 172, 172);
+  width: 33%;
+  font-size:22px;
 }
 .box-span2:last-child{
   background:rgb(154, 218, 27);
-  padding: 32px 34px;
 }
 .operators-style {
-  padding: 17px 25px;
-  border:1px solid rgb(17, 16, 16);
+  padding: 0.85em 1.5em;
+  border:1px solid rgb(173, 172, 172);
+  background-color: rgb(27, 218, 161);
+  font-size:22px;
+}
+.section-operator{
+  width: 30%;
+  padding: 0 1%;
+  
 }
