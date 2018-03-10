@@ -13,8 +13,9 @@ class App extends Component {
             <Screen
               num='10'
             />
+          
         </div>
-        <div className="row">
+        <div className="row keyboard">
           <Keyboard 
             numbers={["1","2","3"]}
             numbers2={["4","5","6"]}
