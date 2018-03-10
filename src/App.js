@@ -8,13 +8,14 @@ class App extends Component {
   render() {
     return (
 
-      <div className="container d-flex justify-content-center mt-4">
+      <div className="container mt-4">
         <div className="row screen border border-info">
             <Screen
               num='10'
             />
+          
         </div>
-        <div className="row">
+        <div className="row keyboard">
           <Keyboard 
             numbers={["1","2","3"]}
             numbers2={["4","5","6"]}
