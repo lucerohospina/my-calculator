@@ -7,7 +7,7 @@ class Screen extends Component {
         
         return (
              
-               <div className="">
+               <div className="text-right col-sm-12">
                    {num}
                </div>
            

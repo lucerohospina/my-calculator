@@ -1,7 +1,5 @@
 .screen {
   background-color: #dfdfdf;
-  text-align: right;
-  /* height: 55px; */
   width: 50%;
   padding: 5px;
   font-size: 30px;
@@ -9,7 +7,7 @@
 
 .list-style {
   list-style: none;
-  margin-left:0;
+  margin-left:-10px;
 }
 
 .keyboard{
@@ -18,15 +16,19 @@
 }
 .box-span, .box-span2{
   display: inline-block;
-  padding: 32px;
+  padding: 1.7em;
   background-color: rgb(154, 218, 27);
   border:1px solid rgb(17, 16, 16);
+  width: 33%;
 }
 .box-span2:last-child{
   background:rgb(154, 218, 27);
-  padding: 32px 34px;
 }
 .operators-style {
-  padding: 17px 25px;
+  padding: 0.85em 1.5em;
   border:1px solid rgb(17, 16, 16);
+}
+.section-operator{
+  width: 30%;
+  padding: 0 1%;
 }

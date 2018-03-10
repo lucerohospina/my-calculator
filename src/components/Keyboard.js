@@ -17,18 +17,18 @@ class Keyboard extends Component {
     })
 
     return (
-      <div className = "ml-2">
+      <div className = "ml-2 col-sm-8 text-center">
         <div>
-          <span>{firstRow}</span>
+          {firstRow}
         </div>
         <div>
-          <span>{secondRow}</span>
+          {secondRow}
         </div>
         <div>
-          <span>{thirdRow}</span>
+          {thirdRow}
         </div>
         <div>
-          <span>{fourthRow}</span>
+          {fourthRow}
         </div>
       </div>
     )
