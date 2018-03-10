@@ -9,14 +9,24 @@
 
 .list-style {
   list-style: none;
+  margin-left:0;
 }
 
 .keyboard{
   background-color: aqua;
   width: 50%;
 }
-.box-span{
+.box-span, .box-span2{
   display: inline-block;
-  padding: 30px;
+  padding: 32px;
+  background-color: rgb(154, 218, 27);
+  border:1px solid rgb(17, 16, 16);
+}
+.box-span2:last-child{
+  background:rgb(154, 218, 27);
+  padding: 32px 34px;
+}
+.operators-style {
+  padding: 17px 25px;
   border:1px solid rgb(17, 16, 16);
 }
