@@ -11,10 +11,6 @@
   list-style: none;
 }
 
-<<<<<<< HEAD
-span {
-  display: inline-block;
-=======
 .keyboard{
   background-color: aqua;
   width: 50%;
@@ -23,5 +19,4 @@ span {
   display: inline-block;
   padding: 30px;
   border:1px solid rgb(17, 16, 16);
->>>>>>> bc052657e07ccc9792856b5384c9f477f1d0fc1f
 }
