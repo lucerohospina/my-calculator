@@ -11,7 +11,7 @@ class App extends Component {
       <div className="container mt-4 text-white font-weight-bold">
         <div className="row screen border border-info">
             <Screen
-              num='10'
+              
             />
           
         </div>

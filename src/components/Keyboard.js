@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 class Keyboard extends Component {
+  
   render() {
+
     const firstRow = this.props.numbers.map((number, index) => {
       return <span key={index} className="box-span">{number}</span>
     })
