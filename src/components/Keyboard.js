@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 
 class Keyboard extends Component {
-  
+  state = {
+    displayValue: "0"
+  }
+
   render() {
+
+    const {displayValue} = this.state
 
     const firstRow = this.props.numbers.map((number, index) => {
       return <span key={index} className="box-span">{number}</span>

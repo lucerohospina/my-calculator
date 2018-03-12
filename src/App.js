@@ -16,7 +16,7 @@ class App extends Component {
           
         </div>
         <div className="row keyboard">
-          <Keyboard 
+          <Keyboard
             numbers={["1","2","3"]}
             numbers2={["4","5","6"]}
             numbers3={["7","8","9"]}

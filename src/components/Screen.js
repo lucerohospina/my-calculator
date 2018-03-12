@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Screen extends Component {
     state = {
         displayValue: "0"
@@ -9,7 +8,7 @@ class Screen extends Component {
     render(){
       const {displayValue} = this.state
 
-      const {num} = this.props
+    //   const {num} = this.props
         
         return (
              
